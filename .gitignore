@@ -1,0 +1,29 @@
+# Ignore build output
+/build/
+/*.exe
+/*.out
+/*.o
+/*.a
+/*.dll
+
+# Ignore IDE and editor specific files
+.vscode/
+*.swp
+*.swo
+
+# Ignore temporary files
+*.log
+*.bak
+*.tmp
+
+# Ignore system-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore IDE settings (e.g., for VS Code or Visual Studio)
+.vscode/
+.idea/
+
+# Ignore compiled libraries
+*.lib
+*.dll
